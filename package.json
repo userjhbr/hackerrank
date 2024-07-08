@@ -1,0 +1,37 @@
+{
+  "name": "accordion",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "prestart": "npm install",
+    "build": "webpack --config=webpack.config.js",
+    "pretest": "npm install && npm run build",
+    "start": "node app.js",
+    "test": "jest --ci --testResultsProcessor=jest-junit"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@testing-library/dom": "^9.3.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "axios": "^1.4.0",
+    "babel-jest": "^29.5.0",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "jest": "^29.5.0",
+    "jest-junit": "^16.0.0",
+    "jsdom": "^22.1.0",
+    "request": "^2.88.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.87.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-middleware": "^6.1.1",
+    "webpack-hot-middleware": "^2.25.3"
+  },
+  "dependencies": {
+    "express": "~4.18.2",
+    "h8k-components": "^1.0.0",
+    "h8k-design": "^1.0.16",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
