@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="8" errors="0" time="23.979">
+  <testsuite name="accordion test" errors="0" failures="8" skipped="0" timestamp="2024-07-08T16:18:41" time="23.907" tests="8">
+    <testcase classname="accordion test shows the 1st item description expanded by default" name="accordion test shows the 1st item description expanded by default" time="0.688">
+      <failure>Error: expect(element).not.toBeVisible()
+
+Received element is visible:
+  &lt;div class=&quot;description&quot; /&gt;
+    at Object.toBeVisible (/projects/challenge/test/test.js:34:37)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:121:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="accordion test expands the item description when clicking on a title of collapsed element" name="accordion test expands the item description when clicking on a title of collapsed element" time="0.431">
+      <failure>Error: expect(element).not.toBeVisible()
+
+Received element is visible:
+  &lt;div class=&quot;description&quot; /&gt;
+    at Object.toBeVisible (/projects/challenge/test/test.js:45:37)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:121:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="accordion test shows expand icon when item is collapsed" name="accordion test shows expand icon when item is collapsed" time="0.388">
+      <failure>Error: expect(element).not.toBeVisible()
+
+Received element is visible:
+  &lt;div class=&quot;expand-icon&quot; /&gt;
+    at Object.toBeVisible (/projects/challenge/test/test.js:62:32)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:121:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="accordion test shows collapse icon when item is expanded" name="accordion test shows collapse icon when item is expanded" time="0.343">
+      <failure>Error: expect(element).not.toBeVisible()
+
+Received element is visible:
+  &lt;div class=&quot;collapse-icon&quot; /&gt;
+    at Object.toBeVisible (/projects/challenge/test/test.js:83:38)
+    at Promise.then.completed (/projects/challenge/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/projects/challenge/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/projects/challenge/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/projects/challenge/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/projects/challenge/node_modules/jest-circus/build/run.js:121:9)
+    at run (/projects/challenge/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="accordion test collapses the item description when clicking on title of expanded item" name="accordion test collapses the item description when clicking on title of expanded item" time="5.002">
+      <failure>Error: thrown: &quot;Exceeded timeout of 5000 ms for a hook.
+Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout.&quot;
+    at beforeEach (/projects/challenge/test/test.js:12:5)
+    at _dispatchDescribe (/projects/challenge/node_modules/jest-circus/build/index.js:91:26)
+    at describe (/projects/challenge/node_modules/jest-circus/build/index.js:55:5)
+    at Object.describe (/projects/challenge/test/test.js:11:1)
+    at Runtime._execModule (/projects/challenge/node_modules/jest-runtime/build/index.js:1439:24)
+    at Runtime._loadModule (/projects/challenge/node_modules/jest-runtime/build/index.js:1022:12)
+    at Runtime.requireModule (/projects/challenge/node_modules/jest-runtime/build/index.js:882:12)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="accordion test collapses all expanded elements when expanding an another item" name="accordion test collapses all expanded elements when expanding an another item" time="5.001">
+      <failure>Error: thrown: &quot;Exceeded timeout of 5000 ms for a hook.
+Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout.&quot;
+    at beforeEach (/projects/challenge/test/test.js:12:5)
+    at _dispatchDescribe (/projects/challenge/node_modules/jest-circus/build/index.js:91:26)
+    at describe (/projects/challenge/node_modules/jest-circus/build/index.js:55:5)
+    at Object.describe (/projects/challenge/test/test.js:11:1)
+    at Runtime._execModule (/projects/challenge/node_modules/jest-runtime/build/index.js:1439:24)
+    at Runtime._loadModule (/projects/challenge/node_modules/jest-runtime/build/index.js:1022:12)
+    at Runtime.requireModule (/projects/challenge/node_modules/jest-runtime/build/index.js:882:12)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="accordion test expands more than one item if multi-select is enabled" name="accordion test expands more than one item if multi-select is enabled" time="5.001">
+      <failure>Error: thrown: &quot;Exceeded timeout of 5000 ms for a hook.
+Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout.&quot;
+    at beforeEach (/projects/challenge/test/test.js:12:5)
+    at _dispatchDescribe (/projects/challenge/node_modules/jest-circus/build/index.js:91:26)
+    at describe (/projects/challenge/node_modules/jest-circus/build/index.js:55:5)
+    at Object.describe (/projects/challenge/test/test.js:11:1)
+    at Runtime._execModule (/projects/challenge/node_modules/jest-runtime/build/index.js:1439:24)
+    at Runtime._loadModule (/projects/challenge/node_modules/jest-runtime/build/index.js:1022:12)
+    at Runtime.requireModule (/projects/challenge/node_modules/jest-runtime/build/index.js:882:12)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="accordion test collapses all other items when expanding an item after multi-select has beem disabled" name="accordion test collapses all other items when expanding an item after multi-select has beem disabled" time="5.001">
+      <failure>Error: thrown: &quot;Exceeded timeout of 5000 ms for a hook.
+Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout.&quot;
+    at beforeEach (/projects/challenge/test/test.js:12:5)
+    at _dispatchDescribe (/projects/challenge/node_modules/jest-circus/build/index.js:91:26)
+    at describe (/projects/challenge/node_modules/jest-circus/build/index.js:55:5)
+    at Object.describe (/projects/challenge/test/test.js:11:1)
+    at Runtime._execModule (/projects/challenge/node_modules/jest-runtime/build/index.js:1439:24)
+    at Runtime._loadModule (/projects/challenge/node_modules/jest-runtime/build/index.js:1022:12)
+    at Runtime.requireModule (/projects/challenge/node_modules/jest-runtime/build/index.js:882:12)
+    at jestAdapter (/projects/challenge/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:77:13)
+    at runTestInternal (/projects/challenge/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/projects/challenge/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
